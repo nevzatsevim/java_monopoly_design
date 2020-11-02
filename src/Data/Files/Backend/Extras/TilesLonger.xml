@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tiles>
+  <Tile number = "1">
+    <Tilename>GO</Tilename>
+    <action>
+      <ActionClassName>ChangeMoney</ActionClassName>
+      <Parameter>200</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "2">
+    <Tilename>Purple</Tilename>
+    <card type = "Property Card">
+      <name>Mediterranean Avenue</name>
+      <propertyGI>1</propertyGI>
+      <propertyPrice>60</propertyPrice>
+      <baseRent>20</baseRent>
+      <maxSize>2</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "3">
+    <Tilename>Community Chest</Tilename>
+    <action>
+      <ActionClassName>DrawCommunityCard</ActionClassName>
+      <Parameter>2</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "4">
+    <Tilename>Purple</Tilename>
+    <card type = "Property Card">
+      <name>Baltic Avenue</name>
+      <propertyGI>1</propertyGI>
+      <propertyPrice>60</propertyPrice>
+      <baseRent>20</baseRent>
+      <maxSize>2</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "5">
+    <Tilename>Income Tax</Tilename>
+    <action>
+      <ActionClassName>PayPercent</ActionClassName>
+      <Parameter>10</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "6">
+    <Tilename>Reading RailRoad</Tilename>
+    <card type = "Public Transport Card">
+      <name>Reading RailRoad</name>
+      <propertyGI>2</propertyGI>
+      <propertyPrice>200</propertyPrice>
+      <baseRent>50</baseRent>
+      <maxSize>4</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "7">
+    <Tilename>Blue</Tilename>
+    <card type = "Property Card">
+      <name>Oriental Avenue</name>
+      <propertyGI>1</propertyGI>
+      <propertyPrice>100</propertyPrice>
+      <baseRent>30</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "8">
+    <Tilename>CHANCE?</Tilename>
+    <action>
+      <ActionClassName>DrawLuckCard</ActionClassName>
+      <Parameter>0</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "9">
+  <Tilename>Blue</Tilename>
+  <card type = "Property Card">
+    <name>Vermont Avenue</name>
+    <propertyGI>3</propertyGI>
+    <propertyPrice>100</propertyPrice>
+    <baseRent>40</baseRent>
+    <maxSize>3</maxSize>
+    <housePrice>50</housePrice>
+    <hotelPrice>60</hotelPrice>
+  </card>
+</Tile>
+  <Tile number = "10">
+    <Tilename>Blue</Tilename>
+    <card type = "Property Card">
+      <name>Connecticut Avenue</name>
+      <propertyGI>3</propertyGI>
+      <propertyPrice>120</propertyPrice>
+      <baseRent>50</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "11">
+    <Tilename>JAIL</Tilename>
+  </Tile>
+  <Tile number = "12">
+    <Tilename>Pink</Tilename>
+    <card type = "Property Card">
+      <name>ST. Charles Place</name>
+      <propertyGI>4</propertyGI>
+      <propertyPrice>140</propertyPrice>
+      <baseRent>20</baseRent>
+      <maxSize>1</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "13">
+    <Tilename>ELECTRIC COMPANY</Tilename>
+    <card type = "Public Utility Card">
+      <name>Electric Company</name>
+      <propertyGI>5</propertyGI>
+      <propertyPrice>150</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>1</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "14">
+    <Tilename>Pink</Tilename>
+    <card type = "Public Transport Card">
+      <name>States Avenue</name>
+      <propertyGI>4</propertyGI>
+      <propertyPrice>140</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "15">
+    <Tilename>Pink</Tilename>
+    <card type = "Public Transport Card">
+      <name>Virginia Avenue</name>
+      <propertyGI>4</propertyGI>
+      <propertyPrice>160</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "16">
+    <Tilename>Penn RailRoad</Tilename>
+    <card type = "Public Transport Card">
+      <name>Penn RailRoad</name>
+      <propertyGI>2</propertyGI>
+      <propertyPrice>200</propertyPrice>
+      <baseRent>50</baseRent>
+      <maxSize>4</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "17">
+    <Tilename>Orange</Tilename>
+    <card type = "Property Card">
+      <name>ST. JAMES PLACE</name>
+      <propertyGI>5</propertyGI>
+      <propertyPrice>140</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "18">
+    <Tilename>Community Chest</Tilename>
+    <action>
+      <ActionClassName>DrawCommunityCard</ActionClassName>
+      <Parameter>2</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "19">
+    <Tilename>Orange</Tilename>
+    <card type = "Property Card">
+      <name>Tennessee Avenue</name>
+      <propertyGI>5</propertyGI>
+      <propertyPrice>180</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "20">
+    <Tilename>Orange</Tilename>
+    <card type = "Property Card">
+      <name>New York Avenue</name>
+      <propertyGI>5</propertyGI>
+      <propertyPrice>200</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "21">
+    <Tilename>FREE PARKING</Tilename>
+    <action>
+      <ActionClassName>ChangeMoney</ActionClassName>
+      <Parameter>200</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "22">
+    <Tilename>Red</Tilename>
+    <card type = "Property Card">
+      <name>Kentucky Avenue</name>
+      <propertyGI>6</propertyGI>
+      <propertyPrice>220</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "23">
+    <Tilename>CHANCE?</Tilename>
+    <action>
+      <ActionClassName>DrawLuckCard</ActionClassName>
+      <Parameter>0</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "24">
+    <Tilename>Red</Tilename>
+    <card type = "Property Card">
+      <name>Indiana Avenue</name>
+      <propertyGI>6</propertyGI>
+      <propertyPrice>220</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "25">
+    <Tilename>Red</Tilename>
+    <card type = "Property Card">
+      <name>Illinois Avenue</name>
+      <propertyGI>6</propertyGI>
+      <propertyPrice>240</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "26">
+    <Tilename>B &amp;O RailRoad</Tilename>
+    <card type = "Public Transport Card">
+      <name>Penn RailRoad</name>
+      <propertyGI>2</propertyGI>
+      <propertyPrice>200</propertyPrice>
+      <baseRent>50</baseRent>
+      <maxSize>4</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "27">
+    <Tilename>Yellow</Tilename>
+    <card type = "Property Card">
+      <name>Atlantic Avenue</name>
+      <propertyGI>7</propertyGI>
+      <propertyPrice>260</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "28">
+    <Tilename>Yellow</Tilename>
+    <card type = "Property Card">
+      <name>Ventinor Avenue</name>
+      <propertyGI>7</propertyGI>
+      <propertyPrice>260</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "29">
+    <Tilename>Water Works</Tilename>
+    <card type = "Public Utility Card">
+      <name>Water Works</name>
+      <propertyGI>8</propertyGI>
+      <propertyPrice>150</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>1</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "30">
+    <Tilename>Yellow</Tilename>
+    <card type = "Property Card">
+      <name>Illinois Avenue</name>
+      <propertyGI>6</propertyGI>
+      <propertyPrice>240</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "31">
+    <Tilename>GO TO JAIL</Tilename>
+    <action>
+      <ActionClassName>GoToJail</ActionClassName>
+      <Parameter>2</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "32">
+    <Tilename>Green</Tilename>
+    <card type = "Property Card">
+      <name>Pacific Avenue</name>
+      <propertyGI>6</propertyGI>
+      <propertyPrice>240</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "33">
+    <Tilename>Green</Tilename>
+    <card type = "Property Card">
+      <name>North Carolina Avenue</name>
+      <propertyGI>8</propertyGI>
+      <propertyPrice>300</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "34">
+    <Tilename>Community Chest</Tilename>
+    <action>
+      <ActionClassName>DrawCommunityCard</ActionClassName>
+      <Parameter>2</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "35">
+    <Tilename>Green</Tilename>
+    <card type = "Property Card">
+      <name>Pennsylvania Avenue</name>
+      <propertyGI>8</propertyGI>
+      <propertyPrice>320</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>3</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "36">
+    <Tilename>SHORT LINE</Tilename>
+    <card type = "Public Utility Card">
+      <name>Penn RailRoad</name>
+      <propertyGI>2</propertyGI>
+      <propertyPrice>200</propertyPrice>
+      <baseRent>50</baseRent>
+      <maxSize>4</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "37">
+    <Tilename>CHANCE?</Tilename>
+    <action>
+      <ActionClassName>DrawLuckCard</ActionClassName>
+      <Parameter>2</Parameter>
+    </action>
+  </Tile>
+  <Tile number = "38">
+    <Tilename>Dark Blue</Tilename>
+    <card type = "Property Card">
+      <name>Park Place</name>
+      <propertyGI>9</propertyGI>
+      <propertyPrice>350</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>2</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "39">
+    <Tilename>Luxury Tax</Tilename>
+    <card type = "Utility Card">
+      <name>Pennsylvania Avenue</name>
+      <propertyGI>0</propertyGI>
+      <propertyPrice>75</propertyPrice>
+      <baseRent>0</baseRent>
+      <maxSize>0</maxSize>
+      <housePrice>0</housePrice>
+      <hotelPrice>0</hotelPrice>
+    </card>
+  </Tile>
+  <Tile number = "40">
+    <Tilename>Dark Blue</Tilename>
+    <card type = "Property Card">
+      <name>Board Walk</name>
+      <propertyGI>8</propertyGI>
+      <propertyPrice>400</propertyPrice>
+      <baseRent>80</baseRent>
+      <maxSize>2</maxSize>
+      <housePrice>50</housePrice>
+      <hotelPrice>60</hotelPrice>
+    </card>
+  </Tile>
+</Tiles>
+
+

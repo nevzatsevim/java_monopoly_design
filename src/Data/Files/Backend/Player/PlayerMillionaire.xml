@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players>
+    <player number = "1">
+        <money>5000</money>
+        <position>0</position>
+    </player>
+    <player number = "2">
+        <money>5000</money>
+        <position>0</position>
+    </player>
+    <player number = "3">
+        <money>5000</money>
+        <position>0</position>
+    </player>
+    <player number = "4">
+        <money>5000</money>
+        <position>0</position>
+    </player>
+    <player number = "5">
+        <money>5000</money>
+        <position>0</position>
+    </player>
+</players>

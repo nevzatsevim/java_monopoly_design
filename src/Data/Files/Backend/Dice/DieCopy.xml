@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dice>
+  <frequencyCondition>2</frequencyCondition>
+  <conditionMetInRowThreshold>3</conditionMetInRowThreshold>
+  <action1>
+    <ActionClassName>ChangePosition</ActionClassName>
+    <Parameter>0</Parameter>
+  </action1>
+  <action2>
+    <ActionClassName>ChangeMoney</ActionClassName>
+    <Parameter>0</Parameter>
+  </action2>
+  <DieNumber number = "1">
+    <Die face = "1">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>1</Parameter>
+      <valueAssigned>1</valueAssigned>
+    </Die>
+    <Die face = "2">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>2</Parameter>
+      <valueAssigned>2</valueAssigned>
+    </Die>
+    <Die face = "3">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>3</Parameter>
+      <valueAssigned>3</valueAssigned>
+    </Die>
+    <Die face = "4">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>4</Parameter>
+      <valueAssigned>4</valueAssigned>
+    </Die>
+    <Die face = "5">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>5</Parameter>
+      <valueAssigned>5</valueAssigned>
+    </Die>
+    <Die face = "6">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>6</Parameter>
+      <valueAssigned>6</valueAssigned>
+    </Die>
+  </DieNumber>
+
+  <DieNumber number = "2">
+    <Die face = "1">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>1</Parameter>
+      <valueAssigned>1</valueAssigned>
+    </Die>
+    <Die face = "2">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>2</Parameter>
+      <valueAssigned>2</valueAssigned>
+    </Die>
+    <Die face = "3">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>3</Parameter>
+      <valueAssigned>3</valueAssigned>
+    </Die>
+    <Die face = "4">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>4</Parameter>
+      <valueAssigned>4</valueAssigned>
+    </Die>
+    <Die face = "5">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>5</Parameter>
+      <valueAssigned>5</valueAssigned>
+    </Die>
+    <Die face = "6">
+      <ActionClassName>ChangePosition</ActionClassName>
+      <Parameter>6</Parameter>
+      <valueAssigned>6</valueAssigned>
+    </Die>
+  </DieNumber>
+</Dice>

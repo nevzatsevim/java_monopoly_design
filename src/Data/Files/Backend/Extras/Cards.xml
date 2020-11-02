@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuyableCard>
+    <card type = "Property Card">
+        <name>Hello Property</name>
+        <propertyGI>1</propertyGI>
+        <propertyPrice>100</propertyPrice>
+        <baseRent>20</baseRent>
+        <maxSize>3</maxSize>
+        <housePrice>50</housePrice>
+        <hotelPrice>60</hotelPrice>
+    </card>
+    <card type= "Property Card">
+        <name>Property2</name>
+        <propertyGI>1</propertyGI>
+        <propertyPrice>120</propertyPrice>
+        <baseRent>25</baseRent>
+        <maxSize>3</maxSize>
+        <housePrice>50</housePrice>
+        <hotelPrice>65</hotelPrice>
+    </card>
+    <card type = "Public Utility Card">
+        <name>Princess Property</name>
+        <propertyGI>1</propertyGI>
+        <propertyPrice>100</propertyPrice>
+        <baseRent>20</baseRent>
+        <maxSize>3</maxSize>
+    </card>
+    <card type = "Public Transport Card">
+        <name>Property3</name>
+        <propertyGI>1</propertyGI>
+        <propertyPrice>100</propertyPrice>
+        <baseRent>20</baseRent>
+        <maxSize>3</maxSize>
+    </card>
+</BuyableCard>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actionUI>
+    <playerAct act = "Player Actions">
+        <button1>Trade</button1>
+        <button2>pay Fines</button2>
+        <button3>Next Player</button3>
+        <button4>?</button4>
+        <button5>How To Play Monopoly</button5>
+        <button6>Active Player: </button6>
+        <url>/view/images/die.png</url>
+        <Text>-fx-text-fill: rgb(255,255,255);</Text>
+        <BG>-fx-background-color: rgb(51,49,51);</BG>
+        <BOG>-fx-border-color: #afafaf;</BOG>
+        <BOR>-fx-border-radius: 2;</BOR>
+        <BGR>-fx-background-radius: 2</BGR>
+        <DarkT>-fx-text-fill: rgb(255,255,255);</DarkT>
+        <DarkB>-fx-background-color: rgb(51,49,51);</DarkB>
+        <Joke1>The Tragedy of Darth Plagueis the Wise?</Joke1>
+        <Joke2>It's not a story the Jedi would tell you.</Joke2>
+        <load>https://www.ultraboardgames.com/monopoly/game-rules.php</load>
+    </playerAct>
+</actionUI>

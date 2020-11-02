@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tiles>
+    <Tile number = "1">
+        <Tilename>Green</Tilename>
+        <card type = "Property Card">
+            <name>Pikachu Property</name>
+            <propertyGI>1</propertyGI>
+            <propertyPrice>100</propertyPrice>
+            <baseRent>20</baseRent>
+            <maxSize>3</maxSize>
+            <housePrice>50</housePrice>
+            <hotelPrice>60</hotelPrice>
+        </card>
+        <action>
+            <ActionClassName>ChangePosition</ActionClassName>
+            <Parameter>2</Parameter>
+        </action>
+    </Tile>
+    <Tile number = "2">
+        <Tilename>Orange</Tilename>
+        <card type = "Property Card">
+            <name>Elephant Property</name>
+            <propertyGI>1</propertyGI>
+            <propertyPrice>100</propertyPrice>
+            <baseRent>20</baseRent>
+            <maxSize>3</maxSize>
+            <housePrice>50</housePrice>
+            <hotelPrice>60</hotelPrice>
+        </card>
+        <action>
+            <ActionClassName>ChangePosition</ActionClassName>
+            <Parameter>2</Parameter>
+        </action>
+    </Tile>
+</Tiles>

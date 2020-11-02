@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LuckCard>
+    <luck num = "1">
+        <ActionClassName>LandTax</ActionClassName>
+        <ParameterName>100</ParameterName>
+        <textCard>LAND TAX : Pay 100 Dollars per land owned.</textCard>
+    </luck>
+    <luck num = "2">
+        <ActionClassName>PayPercent</ActionClassName>
+        <ParameterName>20</ParameterName>
+        <textCard>Luxury Tax: Pay 20 percent of your money.</textCard>
+    </luck>
+    <luck num = "3">
+        <ActionClassName>ChangeMoney</ActionClassName>
+        <ParameterName>100</ParameterName>
+        <textCard>You have won a crossword competition—Collect $100</textCard>
+    </luck>
+    <luck num = "4">
+        <ActionClassName>ChangePosition</ActionClassName>
+        <ParameterName>-3</ParameterName>
+        <textCard>Go Back 3 Spaces</textCard>
+    </luck>
+    <luck num = "5">
+        <ActionClassName>SetPosition</ActionClassName>
+        <ParameterName>0</ParameterName>
+        <textCard>Advance to Go (Collect $200)</textCard>
+    </luck>
+
+</LuckCard>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LuckCard>
+    <luck num = "1">
+        <ActionClassName>ChangeMoney</ActionClassName>
+        <ParameterName>-30</ParameterName>
+        <textCard>PAY POOR TAX OF $30</textCard>
+    </luck>
+    <luck num = "2">
+        <ActionClassName>SetPosition</ActionClassName>
+        <ParameterName>0</ParameterName>
+        <textCard>ADVANCE TO GO</textCard>
+    </luck>
+    <luck num = "3">
+        <ActionClassName>ChangeMoney</ActionClassName>
+        <ParameterName>150</ParameterName>
+        <textCard>YOUR BUSINESS MATTER TO US, receive 150</textCard>
+    </luck>
+    <luck num = "4">
+        <ActionClassName>PayPercent</ActionClassName>
+        <ParameterName>2</ParameterName>
+        <textCard>PLEASE PAY POOR FOOD TAX OF 2%</textCard>
+    </luck>
+    <luck num = "5">
+        <ActionClassName>ChangePosition</ActionClassName>
+        <ParameterName>-2</ParameterName>
+        <textCard>GO BACK TWO SPACES</textCard>
+    </luck>
+</LuckCard>

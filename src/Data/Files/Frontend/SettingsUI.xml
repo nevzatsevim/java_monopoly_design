@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settingUI>
+    <setup board_type = "Classic">
+        <barHeight>1.5</barHeight>
+        <barWidth>10</barWidth>
+        <barWidth7>7</barWidth7>
+        <start>Start</start>
+        <settings>Game Setting</settings>
+        <chooseBoard>Choose Board</chooseBoard>
+        <player># of Players</player>
+        <dice>Choose Dice</dice>
+        <diceSide>6 sided</diceSide>
+        <player2>2</player2>
+        <player3>3</player3>
+        <player4>4</player4>
+        <player5>5</player5>
+    </setup>
+</settingUI>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playerStatus>
+    <playerStatuses id = "1">
+        <label>Player Statuses</label>
+        <a>5</a>
+        <b>3</b>
+        <c>10</c>
+        <prompt>Choose Player</prompt>
+        <prompt1>Liquid Cash: $</prompt1>
+        <prompt2>Assets: $</prompt2>
+        <prompt3>Net Worth $:</prompt3>
+        <prompt4>Properties:</prompt4>
+    </playerStatuses>
+
+</playerStatus>
